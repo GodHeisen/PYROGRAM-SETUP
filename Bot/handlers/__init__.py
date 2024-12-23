@@ -1,6 +1,7 @@
 import os
 from typing import Tuple, List
 
+
 def get_all_modules(dirname: str) -> Tuple[List[str]]:
     """
     Recursively searches for Python module files within the specified directory and its subdirectories.
