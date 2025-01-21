@@ -18,7 +18,7 @@ async def main():
     for module in MODULES_PATH:
         mod = module.replace(os.getcwd(),"")[1:].replace('/','.').replace(".py",'')
         LOG.print(f"[bold cyan]{mod.split('.')[-1]}")
-        
+
         importlib.import_module(mod)
 
     # if os.path.exists("./waifu_cache.json"):
