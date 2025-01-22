@@ -1,8 +1,7 @@
 import asyncio
 import time
-from pyrogram import Client, filters
-from pyrogram.types import Message
-from .config import api_id, api_hash, bot_token, OWNER_ID as BOT_OWNER
+from pyrogram import Client
+from .config import api_id, api_hash, bot_token
 import sys
 
 loop = asyncio.get_event_loop()
